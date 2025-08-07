@@ -125,7 +125,7 @@ section { padding: 120px 0; overflow-x: hidden; }
 .bait-shield-col { background: rgba(0, 166, 243, 0.05); }
 .icon-check, .icon-cross { margin-right: 10px; font-weight: 700; }
 .icon-check { color: var(--color-success); }
-.icon-cross { color: red }
+.icon-cross { color: #c92020 }
 
 /* --- 7. HOW IT WORKS --- */
 .how-it-works-section { background-color: var(--color-surface); }

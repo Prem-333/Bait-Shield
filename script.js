@@ -147,7 +147,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     const isDecimal = target % 1 !== 0;
                     
                     let current = 0;
-                    const increment = target / 150;
+                    const increment = target / 275;
 
                     const updateCounter = () => {
                         current += increment;
