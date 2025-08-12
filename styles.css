@@ -281,7 +281,7 @@ section { padding: 120px 0; overflow-x: hidden; }
 }
 @media (max-width: 768px) {
     .interactive-tech-grid, .impact-grid-container { grid-template-columns: 1fr; flex-direction: column; }
-    .impact-item:not(:last-child)::after { display: none; } /* Hide dividers on mobile */
+    .impact-item:not(:last-child)::after { display: none; }
     .impact-item { border-bottom: 1px solid var(--color-border); }
     .impact-item:last-child { border-bottom: none; }
 }
