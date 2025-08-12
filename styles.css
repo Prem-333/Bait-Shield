@@ -21,7 +21,11 @@ section { padding: 120px 0; overflow-x: hidden; }
 .main-header { position: fixed; top: 0; left: 0; width: 100%; z-index: 1000; padding: 15px 0; background: rgba(10, 15, 26, 0.7); backdrop-filter: blur(12px); border-bottom: 1px solid var(--color-border); }
 .header-content { display: flex; justify-content: space-between; align-items: center; width: 90%; max-width: 1200px; margin: 0 auto; }
 .logo { display: flex; align-items: center; text-decoration: none; color: var(--color-text-primary); }
-.logo svg { color: var(--color-primary-start); margin-right: 12px; }
+.logo-img { 
+    width: 28px;
+    height: 28px;
+    margin-right: 12px;
+}
 .logo span { font-size: 1.25rem; font-weight: 600; }
 .main-nav { display: flex; gap: 35px; }
 .main-nav a { color: var(--color-text-secondary); text-decoration: none; font-weight: 500; transition: color 0.3s ease; }
